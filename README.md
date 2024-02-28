@@ -1,4 +1,4 @@
-#**MCEaSyIM**
+# **MCEaSyIM**
 MCEaSyIM is an algorithm that extends EaSyIM[1], an algorithm for the influence maximization problem in terms of single information, to the influence maximization problem in terms of multi information.
 (multi information represents **correct information** and **misinformation**)
 
