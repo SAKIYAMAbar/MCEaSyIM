@@ -5,15 +5,15 @@ MCEaSyIM is an algorithm that extends EaSyIM[1], an algorithm for the influence 
 
 MCEaSyIM computes $A_{\text{C}}$ (Initial seed nodes that spread correct information) that approximately maximizes the expected number of active nodes in the diffusion of correct information between time $t = r+1$ and $t = r + l$, where $l$ is an input of the algorithm.
 
-##**Python**
-###**•Requirements**
+## **Python**
+### **•Requirements**
 Require Python 3 series.
 
 We implemented all the algorithms in Python3.
 
 We conducted all the simulations on a Linux server with an AMD EPYC 7502 processor and 125 GB of main memory.
 
-##**Usage**
+## **Usage**
 ### **•Inputfile**
 **network_sample.txt**
 
