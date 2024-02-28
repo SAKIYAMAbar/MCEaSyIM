@@ -33,7 +33,7 @@ For example, `0 1` indicates that an edge exists between node `0 `and node` 1`
 2 6
 ```
 
-###**•Calculate using MCEaSyIM**
+### **•Calculate using MCEaSyIM**
 Calculate the number of users who received correct information and computation time using MCEaSyIM.
 
 Go to ` MCEaSyIM/py/` and run the following command:
@@ -82,7 +82,7 @@ Select nodes to spread correction information considering up to $l$-step.
 
 
 
-###**Output files**
+### **Output files**
 MCEaSyIM_{*model*}_{*filename*}(l={*l*},k={*k*}).csv and MCEaSyIMruntime_{*model*}_{*filename*}(l={*l*},k={*k*}).csv will be created in the folder `MCEaSyIM/result/`.
 
 For example, if one runs
@@ -114,7 +114,7 @@ the following two files will be stored in `MCEaSyIM/result/`:
 
 2 denotes the compiutation time (sec) to select $k$ nodes belonging to $A_C$ using MCEaSyIM ($l$=3) when the network is network_sample and the diffusion model is IC.
 
-##**References**
+## **References**
 [1] Sainyam Galhotra, Akhil Arora, and Shourya Roy, Holistic influence maximization: Combining scalability and efficiency
 with opinion-aware models, Proc. SIGMOD, 2016, pp. 743-758.[[paper]](https://arxiv.org/pdf/1602.03110.pdf)
 
