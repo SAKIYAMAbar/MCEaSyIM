@@ -50,41 +50,36 @@ python3 MCEaSyIM.py
 ```
 The four arguments are as follows.
 
+1. Select either the Independent Cascade model (**IC**) or the Weighted Cascade model (**WC**).
+$p_\text{M}(u, v) \in (0, 1)$ : In misinformation, the probability that an
+active node $u$ activates their inactive out-neighbor $v$.
+$p_\text{C}(u, v) \in (0, 1)$ : In correct information, the probability that an
+active node $u$ activates their inactive out-neighbor $v$.
+in terms of IC, $p_\text{M}(u, v)=0.1$, $p_\text{C}(u, v)=0.05$.
+in terms of WC, $p_\text{M}(u, v)=d_v$, $p_\text{C}(u, v)=1/2d_v$.($d_v$ is in-degree of node $v$)
 ```
 Enter the model IC or WC:
 ```
-Select either the Multi Campaign Independent Cascade model (**IC**)[2] or the Multi Campaign Weighted Cascade model (**WC**).
-
-$p_\text{M}(u, v) \in (0, 1)$ : In misinformation, the probability that an
-active node $u$ activates their inactive out-neighbor $v$.
-
-$p_\text{C}(u, v) \in (0, 1)$ : In correct information, the probability that an
-active node $u$ activates their inactive out-neighbor $v$.
-
-in terms of IC, $p_\text{M}(u, v)=0.1$, $p_\text{C}(u, v)=0.05$.
-
-in terms of WC, $p_\text{M}(u, v)=d_v$, $p_\text{C}(u, v)=1/2d_v$.($d_v$ is in-degree of node $v$)
 
 
-
+2. Select the name of the network.
 ```
 Enter the base filename:
 ```
-select the name of the network.
 
 
 
+3. Select the number of initial $k$ seed nodes that spread the correct information($A_\text{C}$).
 ```
 Enter the base k:
 ```
-Select the number of initial $k$ seed nodes that spread the correct information($A_\text{C}$).
 
 
 
+4. Select nodes to spread correction information considering up to $l$-step.
 ```
 Enter the base l:
 ```
-Select nodes to spread correction information considering up to $l$-step.
 
 
 
