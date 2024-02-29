@@ -10,7 +10,7 @@ def makevalue(edges_C,neighbors,n,state,k,selectednodes,edges_M,l):
     for i in range(l-1):
             if i==0:
                 for u in selectednodes:
-                    for v in mns[u]:   #内包表記,#neighbors[u]かつint(state[v]) != -1のsetを先に記述
+                    for v in mns[u]:  
                             pm[v][i]=pm[v][i]*(1-edges_M[(u, v)])
             else:
                 for u in remaining_nodes:
