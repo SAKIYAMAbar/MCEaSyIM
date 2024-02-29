@@ -108,8 +108,8 @@ Enter the base l: 3
 the following two files will be stored in `MCEaSyIM/result/`:
 
 
-1.   MCEaSyIM_IC_neteork_sample(l=3,k=20).csv
-2.   MCEaSyIMruntime_IC_neteork_sample(l=3,k=20).csv
+1.   MCEaSyIM_IC_network_sample(l=3,k=20).csv
+2.   MCEaSyIMruntime_IC_network_sample(l=3,k=20).csv
 
 1 denotes the fraction of the number of nodes that received correct information when $k$ nodes belonging to $A_C$ are selected using MCEaSyIM ($l$=3) when the network is network_sample and the diffusion model is IC.
 
