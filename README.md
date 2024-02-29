@@ -53,7 +53,7 @@ The four arguments are as follows.
 ```
 Enter the model IC or WC:
 ```
-Select either the Independent Cascade model (**IC**) or the Weighted Cascade model (**WC**).
+Select either the Multi Campaign Independent Cascade model (**IC**)[2] or the Multi Campaign Weighted Cascade model (**WC**).
 
 $p_\text{M}(u, v) \in (0, 1)$ : In misinformation, the probability that an
 active node $u$ activates their inactive out-neighbor $v$.
@@ -123,6 +123,10 @@ the following two files will be stored in `MCEaSyIM/result/`:
 ## **References**
 [1] Sainyam Galhotra, Akhil Arora, and Shourya Roy, Holistic influence maximization: Combining scalability and efficiency
 with opinion-aware models, Proc. SIGMOD, 2016, pp. 743-758.[[paper]](https://arxiv.org/pdf/1602.03110.pdf)
+
+[2]Ceren Budak, Divyakant Agrawal, and Amr El Abbadi, Limiting the spread of misinformation in social networks,
+Proc. WWW, 2011, pp. 665–674.[[paper]](https://dl.acm.org/doi/10.1145/1963405.1963499)
+
 
 ## **Contact**
 sakiyama-takumi[at]ed.tmu.ac.jp
