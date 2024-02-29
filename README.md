@@ -50,13 +50,7 @@ python3 MCEaSyIM.py
 ```
 The four arguments are as follows.
 
-1. Select either the Independent Cascade model (**IC**) or the Weighted Cascade model (**WC**).
-$p_\text{M}(u, v) \in (0, 1)$ : In misinformation, the probability that an
-active node $u$ activates their inactive out-neighbor $v$.
-$p_\text{C}(u, v) \in (0, 1)$ : In correct information, the probability that an
-active node $u$ activates their inactive out-neighbor $v$.
-in terms of IC, $p_\text{M}(u, v)=0.1$, $p_\text{C}(u, v)=0.05$.
-in terms of WC, $p_\text{M}(u, v)=d_v$, $p_\text{C}(u, v)=1/2d_v$.($d_v$ is in-degree of node $v$)
+1. Select either the Independent Cascade model (**IC**) or the Weighted Cascade model (**WC**).(see Diffusion_Rule.jpynb)
 ```
 Enter the model IC or WC:
 ```
@@ -119,8 +113,6 @@ the following two files will be stored in `MCEaSyIM/result/`:
 [1] Sainyam Galhotra, Akhil Arora, and Shourya Roy, Holistic influence maximization: Combining scalability and efficiency
 with opinion-aware models, Proc. SIGMOD, 2016, pp. 743-758.[[paper]](https://arxiv.org/pdf/1602.03110.pdf)
 
-[2]Ceren Budak, Divyakant Agrawal, and Amr El Abbadi, Limiting the spread of misinformation in social networks,
-Proc. WWW, 2011, pp. 665–674.[[paper]](https://dl.acm.org/doi/10.1145/1963405.1963499)
 
 
 ## **Contact**
