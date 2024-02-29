@@ -14,8 +14,13 @@ We implemented all the algorithms in Python3.
 We conducted all the simulations on a Linux server with an AMD EPYC 7502 processor and 125 GB of main memory.
 
 ## **Usage**
+First, clone this repository:
+
 ### **•Inputfile**
 **network_sample.txt**
+```
+git clone git@github.com:SAKIYAMAbar/MCEaSyIM.git
+```
 
 We need to files, network_sample.txt, where indicates the name of the network and is arbitrary. This files should be placed in `MCEaSyIM/data/`. In this files, each line contains two integer.
 For example, `0 1` indicates that an edge exists between node `0 `and node` 1`
