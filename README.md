@@ -115,5 +115,4 @@ with opinion-aware models, Proc. SIGMOD, 2016, pp. 743-758.[[paper]](https://arx
 
 
 
-## **Contact**
-sakiyama-takumi[at]ed.tmu.ac.jp
+
