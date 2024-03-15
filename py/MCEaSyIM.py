@@ -69,5 +69,5 @@ for l in range(chal):
     Rc_ratio[l]=Rc_heikin/n
 print(Rc_ratio)
 print(runtimeind)
-np.savetxt(f"../result/MCEaSyIM_{model}_{base_filename}(l={length},k={k}).csv", Rc_ratio, delimiter=",")
-np.savetxt(f"../result/MCEaSyIMruntime_{model}_{base_filename}(l={length}).csv", runtimeind, delimiter=",")
+np.savetxt(f"../result/MCEaSyIM_spread_{model}_{base_filename}(l={length},k={k}).csv", Rc_ratio, delimiter=",")
+np.savetxt(f"../result/MCEaSyIM_runtime_{model}_{base_filename}(l={length},,k={k}).csv", runtimeind, delimiter=",")
