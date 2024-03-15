@@ -109,6 +109,7 @@ the following two files will be stored in `MCEaSyIM/result/`:
 ## **References**
 [1] Sainyam Galhotra, Akhil Arora, and Shourya Roy. Holistic influence maximization: Combining scalability and efficiency
 with opinion-aware models. Proc. SIGMOD, pp. 743-758(2016). [[paper]](https://arxiv.org/pdf/1602.03110.pdf)
+
 [2] Takumi Sakiyama, Kazuki Nakajima, and Masaki Aida. Efficient intervention in the spread of misinformation in social networks. Under review (2024).
 
 
