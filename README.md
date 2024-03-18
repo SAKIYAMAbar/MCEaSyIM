@@ -5,10 +5,6 @@ MCEaSyIM computes a set of seed nodes that approximately maximizes the expected 
 We provide code for the MCEaSyIM in Python. Our code requires Python 3 series.
 
 ## **Usage**
-First, clone this repository:
-```
-git clone git@github.com:SAKIYAMAbar/MCEaSyIM.git
-```
 
 ### **Input file**
 **network_sample.txt**
@@ -34,7 +30,7 @@ For example, `0 1` indicates that a directed edge exists from node `0 ` to node`
 ### **Run MCEaSyIM**
 Calculate the fraction of nodes activated with correct information and computation time for MCEaSyIM.
 
-Go to ` MCEaSyIM/py/` and run the following command:
+Go to `MCEaSyIM/py/` and run the following command:
 
 
 ```
@@ -48,7 +44,7 @@ Enter the model IC or WC:
 ```
 
 
-2. Input the name of the network. For example, if the file `network_sample.txt` is placed in `MCEaSyIM/data/ `, one inputs `network_sample`.
+2. Input the name of the network. For example, if the file `network_sample.txt` is placed in `MCEaSyIM/data/`, one inputs `network_sample`.
 ```
 Enter the base filename:
 ```
