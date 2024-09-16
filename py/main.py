@@ -5,7 +5,7 @@ import time
 import prob
 import makedict
 import initial
-import MCEaSyIM
+import mceasyim
 import opt
 import calc
 
@@ -48,7 +48,7 @@ R_f=initial[3]
 S_f=initial[2]
 runtimeind=np.zeros(1)
 start_time = time.time()  # 現在の時間を取得
-Mfvalue=MCEaSyIM.makevalue(edges_C,neighbors,n,state,k,selected_nodes1,edges_M,length)
+Mfvalue=mceasyim.makevalue(edges_C,neighbors,n,state,k,selected_nodes1,edges_M,length)
 end_time = time.time()
 runtime = end_time - start_time
 runtimeind[0]=runtime
@@ -69,5 +69,5 @@ for l in range(chal):
     Rc_ratio[l]=Rc_heikin/n
 print(Rc_ratio)
 print(runtimeind)
-np.savetxt(f"../result/MCEaSyIM_spread_{model}_{base_filename}(l={length},k={k}).csv", Rc_ratio, delimiter=",")
-np.savetxt(f"../result/MCEaSyIM_runtime_{model}_{base_filename}(l={length},,k={k}).csv", runtimeind, delimiter=",")
+np.savetxt(f"../result/mceasyim_spread_{model}_{base_filename}(l={length},k={k}).csv", Rc_ratio, delimiter=",")
+np.savetxt(f"../result/mceasyim_runtime_{model}_{base_filename}(l={length},,k={k}).csv", runtimeind, delimiter=",")
