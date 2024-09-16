@@ -5,7 +5,7 @@ import time
 import prob
 import makedict
 import initial
-import makeval
+import MCEaSyIM
 import opt
 import calc
 
@@ -48,7 +48,7 @@ R_f=initial[3]
 S_f=initial[2]
 runtimeind=np.zeros(1)
 start_time = time.time()  # 現在の時間を取得
-Mfvalue=makeval.makevalue(edges_C,neighbors,n,state,k,selected_nodes1,edges_M,length)
+Mfvalue=MCEaSyIM.makevalue(edges_C,neighbors,n,state,k,selected_nodes1,edges_M,length)
 end_time = time.time()
 runtime = end_time - start_time
 runtimeind[0]=runtime
