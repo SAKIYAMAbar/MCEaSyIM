@@ -1,5 +1,5 @@
 import numpy as np
-def makevalue(edges_C,neighbors,n,state,k,selectednodes,edges_M,l):
+def select_nodes(edges_C,neighbors,n,state,k,selectednodes,edges_M,l):
     remaining_nodes = set([node for node in range(len(state)) if int(state[node]) != -1])
     selectednodes=set(selectednodes)
     ns={u:{v for v in neighbors[u] if state[v]!=-1} for u in remaining_nodes}
